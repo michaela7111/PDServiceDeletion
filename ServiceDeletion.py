@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# This file has been updated to change the 'dash' variable from 62 to 65
 
 import sys
 import traceback
@@ -14,7 +15,8 @@ QUERY = ''
 INCLUDE = []
 
 # Other variables needed for script
-dash = '-' * 62
+#dash = '-' * 62
+dash = '-' * 65
 service_ids = []
 
 def preamble():
